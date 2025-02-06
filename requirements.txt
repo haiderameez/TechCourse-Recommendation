@@ -1,0 +1,7 @@
+langchain 
+flask 
+selenium 
+requests 
+faiss-cpu
+langchain-community
+numpy
