@@ -57,8 +57,9 @@ def search():
     return jsonify({
         "title": best_match.metadata.get("title", "No Title Found"),
         "link": best_match.metadata.get("link", "No Link Available"),
-        "content": best_match.page_content
+        "full_content": best_match.page_content 
     })
+
 
 if __name__ == "__main__":
     app.run(debug=True)
