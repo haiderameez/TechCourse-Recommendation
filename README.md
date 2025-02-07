@@ -17,8 +17,9 @@ pip install -r requirements.txt
 
 ### 4. Running the API  
 - Run `app.py` to initialize the creation of the pickle file and also to run the api.
-- To get answers from model, run queries similar to this
-
+- To get answers from model, post queries in the api.
+- Two examples of how to use the api are given below.
+  
 ### 5. Example Usage
 1. Query,
    ```powershell
